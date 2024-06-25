@@ -14,6 +14,8 @@ body {
 }
 
 .container {
+    height: 450px;
+    width: 450px;
     padding: 20px;
     background-color: #6f278be0;
     border-radius: 10px;
@@ -55,9 +57,13 @@ button:hover {
     background-color: #4fa4e9da;
 }
 
+h1 {
+    font-size: 50px;
+}
 
 p {
     font-weight: bold;
+    font-size: 25px;
     margin-bottom: 10px;
 }
 
