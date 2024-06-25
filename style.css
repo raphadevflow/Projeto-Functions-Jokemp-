@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://cdn.pixabay.com/photo/2013/07/13/09/51/rock-paper-scissors-156171_1280.png");
+    background-size:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: #6f278be0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 30px;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+
+#rock {
+    background-color: #353638c0;
+}
+
+#paper {
+    background-color: #f5bc42b2;
+}
+
+#scissors {
+    background-color: #4fa4e9da;
+}
+
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.your-score span {
+    color: rgb(45, 45, 192);
+}
+
+.machine-score span{
+    color: rgb(185, 39, 39);
+}
