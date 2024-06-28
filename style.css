@@ -17,7 +17,7 @@ body {
     height: 450px;
     width: 450px;
     padding: 20px;
-    background-color: #6f278be0;
+    background-color: #726d74e0;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -69,9 +69,9 @@ p {
 }
 
 .your-score span {
-    color: rgb(45, 45, 192);
+    color: rgb(17, 17, 192);
 }
 
 .machine-score span{
-    color: rgb(185, 39, 39);
+    color: rgb(194, 19, 19);
 }
